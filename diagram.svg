@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="480">
+  <defs>
+    <marker id="g" orient="auto" overflow="visible">
+      <path fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width=".378" d="M-5.23-2.42L1.32-.01-5.23 2.4a4.1 4.1 0 0 0 0-4.82z"/>
+    </marker>
+    <marker id="e" orient="auto" overflow="visible">
+      <path fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width=".378" d="M-5.23-2.42L1.32-.01-5.23 2.4a4.1 4.1 0 0 0 0-4.82z"/>
+    </marker>
+    <marker id="f" orient="auto" overflow="visible">
+      <path fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width=".378" d="M-5.23-2.42L1.32-.01-5.23 2.4a4.1 4.1 0 0 0 0-4.82z"/>
+    </marker>
+    <marker id="d" orient="auto" overflow="visible">
+      <path fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width=".378" d="M-5.23-2.42L1.32-.01-5.23 2.4a4.1 4.1 0 0 0 0-4.82z"/>
+    </marker>
+    <marker id="b" orient="auto" overflow="visible">
+      <path fill-rule="evenodd" stroke="#000" stroke-width=".532" d="M2.3 0l-3.45 2v-4z"/>
+    </marker>
+    <marker id="a" orient="auto" overflow="visible">
+      <path fill-rule="evenodd" stroke="#000" stroke-width=".532" d="M2.3 0l-3.45 2v-4z"/>
+    </marker>
+    <marker id="c" orient="auto" overflow="visible">
+      <path fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width=".378" d="M-5.23-2.42L1.32-.01-5.23 2.4a4.1 4.1 0 0 0 0-4.82z"/>
+    </marker>
+  </defs>
+  <g opacity=".3">
+    <path fill="none" stroke="#000" stroke-width="1.06" d="M174.63 179.79v107.42M95.25 179.79v107.42M15.88 179.79v107.42" transform="matrix(3.77958 0 0 3.77958 0 -642.53)"/>
+    <text x="95.25" y="177.14" style="line-height:1.25;text-align:center" stroke-width=".26" font-family="sans-serif" font-size="4.23" font-weight="400" letter-spacing="0" text-anchor="middle" transform="matrix(3.77958 0 0 3.77958 0 -642.53)" word-spacing="0">
+      <tspan style="text-align:center" x="95.25" y="177.14">1000ms</tspan>
+    </text>
+    <text x="174.63" y="177.14" style="line-height:1.25;text-align:center" stroke-width=".26" font-family="sans-serif" font-size="4.23" font-weight="400" letter-spacing="0" text-anchor="middle" transform="matrix(3.77958 0 0 3.77958 0 -642.53)" word-spacing="0">
+      <tspan style="text-align:center" x="174.63" y="177.14">2000ms</tspan>
+    </text>
+    <text x="15.88" y="177.14" style="line-height:1.25;text-align:center" stroke-width=".26" font-family="sans-serif" font-size="4.23" font-weight="400" letter-spacing="0" text-anchor="middle" transform="matrix(3.77958 0 0 3.77958 0 -642.53)" word-spacing="0">
+      <tspan style="text-align:center" x="15.88" y="177.14">0ms</tspan>
+    </text>
+  </g>
+  <path fill="none" stroke="#000" stroke-width="8" marker-end="url(#a)" d="M40 265h640" transform="translate(0 -170)"/>
+  <path fill="none" stroke="#000" stroke-width="8" marker-end="url(#b)" d="M40 555h640" transform="translate(0 -170)"/>
+  <g transform="matrix(3.77958 0 0 3.77958 202 -412.52)">
+    <circle cx="-19.05" cy="134.28" r="6.35" fill="#ffba81" stroke="#000" stroke-width=".53"/>
+    <text x="-21.45" y="137.3" style="line-height:1.25" stroke-width=".26" font-family="sans-serif" font-size="8.47" font-weight="400" letter-spacing="0" word-spacing="0">
+      <tspan x="-21.45" y="137.3">B</tspan>
+    </text>
+  </g>
+  <g transform="matrix(3.77958 0 0 3.77958 177 -416.52)">
+    <circle cx="6.09" cy="135.34" r="6.35" fill="#fff581" stroke="#000" stroke-width=".53"/>
+    <text x="3.28" y="138.36" style="line-height:1.25" stroke-width=".26" font-family="sans-serif" font-size="8.47" font-weight="400" letter-spacing="0" word-spacing="0">
+      <tspan x="3.28" y="138.36">C</tspan>
+    </text>
+  </g>
+  <g transform="matrix(3.77958 0 0 3.77958 158 -409.52)">
+    <circle cx="29.63" cy="133.49" r="6.35" fill="#95ff81" stroke="#000" stroke-width=".53"/>
+    <text x="26.92" y="136.51" style="line-height:1.25" stroke-width=".26" font-family="sans-serif" font-size="8.47" font-weight="400" letter-spacing="0" word-spacing="0">
+      <tspan x="26.92" y="136.51">D</tspan>
+    </text>
+  </g>
+  <g transform="matrix(3.77958 0 0 3.77958 389 -414.52)">
+    <circle cx="50.8" cy="134.81" r="6.35" fill="#81d3ff" stroke="#000" stroke-width=".53"/>
+    <text x="48.29" y="137.83" style="line-height:1.25" stroke-width=".26" font-family="sans-serif" font-size="8.47" font-weight="400" letter-spacing="0" word-spacing="0">
+      <tspan x="48.29" y="137.83">E</tspan>
+    </text>
+  </g>
+  <g transform="matrix(3.77958 0 0 3.77958 0 -642.53)">
+    <circle cx="15.88" cy="195.14" r="6.35" fill="#ff8181" stroke="#000" stroke-width=".53"/>
+    <text style="line-height:1.25" x="13.17" y="198.17" stroke-width=".26" font-family="sans-serif" font-size="8.47" font-weight="400" letter-spacing="0" word-spacing="0">
+      <tspan x="13.17" y="198.17">A</tspan>
+    </text>
+  </g>
+  <g transform="matrix(3.77958 0 0 3.77958 0 -642.53)">
+    <circle cx="15.88" cy="271.86" r="6.35" fill="#ff8181" stroke="#000" stroke-width=".53"/>
+    <text style="line-height:1.25" x="13.17" y="274.9" stroke-width=".26" font-family="sans-serif" font-size="8.47" font-weight="400" letter-spacing="0" word-spacing="0">
+      <tspan x="13.17" y="274.9">A</tspan>
+    </text>
+  </g>
+  <g transform="matrix(3.77958 0 0 3.77958 202 -122.52)">
+    <circle cx="-19.05" cy="134.28" r="6.35" fill="#ffba81" stroke="#000" stroke-width=".53"/>
+    <text style="line-height:1.25" x="-21.45" y="137.3" stroke-width=".26" font-family="sans-serif" font-size="8.47" font-weight="400" letter-spacing="0" word-spacing="0">
+      <tspan x="-21.45" y="137.3">B</tspan>
+    </text>
+  </g>
+  <g transform="matrix(3.77958 0 0 3.77958 177 -126.52)">
+    <circle cx="6.09" cy="135.34" r="6.35" fill="#fff581" stroke="#000" stroke-width=".53"/>
+    <text style="line-height:1.25" x="3.28" y="138.36" stroke-width=".26" font-family="sans-serif" font-size="8.47" font-weight="400" letter-spacing="0" word-spacing="0">
+      <tspan x="3.28" y="138.36">C</tspan>
+    </text>
+  </g>
+  <g transform="matrix(3.77958 0 0 3.77958 248 -119.52)">
+    <circle cx="29.63" cy="133.49" r="6.35" fill="#95ff81" stroke="#000" stroke-width=".53"/>
+    <text style="line-height:1.25" x="26.92" y="136.51" stroke-width=".26" font-family="sans-serif" font-size="8.47" font-weight="400" letter-spacing="0" word-spacing="0">
+      <tspan x="26.92" y="136.51">D</tspan>
+    </text>
+  </g>
+  <g transform="matrix(3.77958 0 0 3.77958 389 -124.52)">
+    <circle cx="50.8" cy="134.81" r="6.35" fill="#81d3ff" stroke="#000" stroke-width=".53"/>
+    <text style="line-height:1.25" x="48.29" y="137.83" stroke-width=".26" font-family="sans-serif" font-size="8.47" font-weight="400" letter-spacing="0" word-spacing="0">
+      <tspan x="48.29" y="137.83">E</tspan>
+    </text>
+  </g>
+  <path fill="none" stroke="#000" stroke-dasharray="8 8" stroke-width="2" marker-end="url(#c)" d="M130 289v242" transform="translate(0 -170)"/>
+  <path fill="none" stroke="#000" stroke-dasharray="8 8" stroke-width="2" marker-end="url(#d)" d="M200 289v242" transform="translate(0 -170)"/>
+  <path fill="none" stroke="#000" stroke-dasharray="8 8" stroke-width="2" marker-end="url(#e)" d="M60 289v242" transform="translate(0 -170)"/>
+  <path fill="none" stroke="#000" stroke-dasharray="8 8" stroke-width="2" marker-end="url(#f)" d="M277.12 287.92l75.77 244.16" transform="translate(0 -170)"/>
+  <path fill="none" stroke="#000" stroke-dasharray="8 8" stroke-width="2" marker-end="url(#g)" d="M581 289v242" transform="translate(0 -170)"/>
+  <path fill="#fff" stroke="#000" stroke-width=".53" d="M.93 219.21h169.33v26.46H.93z" transform="matrix(3.77958 0 0 3.77958 36.5 -638.53)"/>
+  <text x="85.36" y="235.51" style="line-height:1.25;text-align:center" stroke-width=".26" font-family="sans-serif" font-size="10.58" font-weight="400" letter-spacing="0" text-anchor="middle" transform="matrix(3.77958 0 0 3.77958 36.5 -638.53)" word-spacing="0">
+    <tspan style="text-align:center" x="85.36" y="235.51">rateLimit(3, 1000)</tspan>
+  </text>
+</svg>
