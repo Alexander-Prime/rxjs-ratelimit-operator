@@ -1,6 +1,6 @@
 {
   "name": "rxjs-ratelimit-operator",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "An RxJS operator implementing rate limiting on events, similar to common API request rate limiting.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
