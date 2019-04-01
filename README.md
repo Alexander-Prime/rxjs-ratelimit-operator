@@ -1,5 +1,11 @@
 An operator for RxJS 6+ that applies rate limiting as seen on many HTTP APIs.
 
+### Installing
+
+```sh
+npm i rxjs-ratelimit-operator
+```
+
 ## rateLimit()
 
 Given a `limit` and a `window`, only emit `limit` items within a rolling `window` duration. Extra items are delayed until the window is no longer full.
