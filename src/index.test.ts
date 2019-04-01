@@ -1,5 +1,5 @@
 import { interval, Observable, of } from "rxjs";
-import { concat, find, repeat } from "rxjs/operators";
+import { concat, find, repeat, takeUntil } from "rxjs/operators";
 
 import { rateLimit } from ".";
 
@@ -63,12 +63,13 @@ describe("Observable piped through rateLimit", () => {
   it("emits no more than `limit` times inside of `windowMsec`", async done => {
     const tick = jest.fn();
     // Try to emit twice as fast as the rate limit allows
-    interval(INTERVAL / LIMIT / 2)
+    const subscription = interval(INTERVAL / LIMIT / 2)
       .pipe(rateLimit(LIMIT, INTERVAL))
       .subscribe(tick);
 
     await sleep(INTERVAL);
     expect(tick.mock.calls.length).toBeLessThanOrEqual(LIMIT);
+    subscription.unsubscribe();
     done();
   });
 });
