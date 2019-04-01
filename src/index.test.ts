@@ -7,7 +7,7 @@ const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
 const LIMIT = 3;
 const INTERVAL = 1000;
-const TRIGGER = (x: typeof TRIGGER) => x === TRIGGER;
+const TRIGGER = {};
 
 describe("rateLimit operator", () => {
   it("is a function", () => {
@@ -22,7 +22,7 @@ describe("rateLimit operator", () => {
 describe("function returned by rateLimit()", () => {
   it("returns an Observable when given an Observable", () => {
     expect(rateLimit(LIMIT, INTERVAL)(interval(100))).toBeInstanceOf(
-      Observable
+      Observable,
     );
   });
 });
@@ -48,7 +48,7 @@ describe("Observable piped through rateLimit", () => {
           repeat(10),
           concat(of(TRIGGER)),
           rateLimit(LIMIT, INTERVAL),
-          find(item => item === TRIGGER)
+          find(item => item === TRIGGER),
         )
         .toPromise();
 

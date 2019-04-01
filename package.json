@@ -2,17 +2,32 @@
   "name": "rxjs-ratelimit-operator",
   "version": "0.1.0",
   "description": "An RxJS operator implementing rate limiting on events, similar to common API request rate limiting.",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
     "test": "jest -c ./jest.config.json",
-    "test:watch": "jest -c ./jest.config.json --watch"
+    "test:watch": "jest -c ./jest.config.json --watch",
+    "build": "tsc",
+    "lint": "tslint",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run test && npm run lint"
   },
   "author": "Alexander Peters",
+  "keywords": [
+    "rxjs",
+    "operator"
+  ],
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^24.0.11",
     "jest": "^24.5.0",
+    "prettier": "^1.16.4",
     "rxjs": "^6.4.0",
+    "tslint": "^5.14.0",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.4.1"
   },
   "peerDependencies": {
